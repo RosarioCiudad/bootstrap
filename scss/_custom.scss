@@ -1,4 +1,26 @@
 // Bootstrap overrides
+
+
+// 1. Colors
 //
-// Copy variables from `_variables.scss` to this file to override default values
-// without modifying source files.
+// Grayscale and brand colors for use across Bootstrap.
+
+$gray-dark:                 #444 !default;
+$gray:                      #666 !default;
+$gray-light:                #e5e5e5 !default;
+$gray-lighter:              #f0f0f0 !default;
+$gray-lightest:             #f9f9f9 !default;
+
+$brand-primary:             #3d699e !default;
+$brand-success:             #5cb85c !default;
+$brand-info:                #5bc0de !default;
+$brand-warning:             #f0ad4e !default;
+$brand-danger:              #d9534f !default;
+$brand-inverse:             $gray-dark !default;
+
+
+// 2. Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-flex:               true !default;
